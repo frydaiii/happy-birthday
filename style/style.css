@@ -146,8 +146,8 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -35px;
+  width: 100px;
+  top: -85px;
   left: 41.5%;
   /* transform: scale(0.1); */
 }
@@ -302,8 +302,9 @@ body {
   }
 
   .six .hat {
-    width: 50px;
-    top: -20px;
+    width: 100px;
+    top: -100px;
+    left: 110px;
   }
 
   .wish-hbd {
