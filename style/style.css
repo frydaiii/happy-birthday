@@ -7,6 +7,21 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+#start {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  position: absolute;
+  top: 45%;
+  left: 43%;
+  border-radius: 5px;
+}
+
 #clover0 {
   position: absolute;
   bottom: 0px;
@@ -280,6 +295,20 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  #start {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    border-radius: 5px;
+  }
   .container {
     width: 90%;
   }

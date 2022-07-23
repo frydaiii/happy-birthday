@@ -303,4 +303,10 @@ const animationTimeline = () => {
 };
 
 // Run fetch and animation in sequence
-fetchData();
+//   fetchData();
+
+const begin = () => {
+  document.getElementById("start").hidden = true;
+  fetchData();
+  document.getElementById("audio").play();
+}
